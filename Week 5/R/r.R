@@ -1,0 +1,6 @@
+getwd()
+setwd("C:/Users/Kaye/OneDrive/Documents/GitHub/IT365/Midterm Review")
+library("readxl")
+student<-read_xlsx("StudentsPerformance.xlsx")
+png("ScatterPlot.png")
+plot(x = student$`math score`, y = student$`reading score`, xlab='Math', ylab='Reading', main = "")
