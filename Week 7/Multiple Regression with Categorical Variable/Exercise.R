@@ -1,0 +1,5 @@
+getwd()
+setwd("C:/Users/engbi/OneDrive/Documents/GitHub/IT365/Week 7/Multiple Regression with Categorical Variable")
+library(readxl)
+r <- read_xlsx("Exercise.xlsx")
+View(r)
